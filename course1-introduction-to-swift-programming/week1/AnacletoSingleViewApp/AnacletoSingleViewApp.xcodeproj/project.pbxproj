@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC5742551C3C083F001A29E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5742541C3C083F001A29E7 /* AppDelegate.swift */; };
+		AC5742571C3C083F001A29E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5742561C3C083F001A29E7 /* ViewController.swift */; };
+		AC57425A1C3C083F001A29E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5742581C3C083F001A29E7 /* Main.storyboard */; };
+		AC57425C1C3C083F001A29E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC57425B1C3C083F001A29E7 /* Assets.xcassets */; };
+		AC57425F1C3C083F001A29E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC57425D1C3C083F001A29E7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC5742511C3C083F001A29E7 /* AnacletoSingleViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnacletoSingleViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5742541C3C083F001A29E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC5742561C3C083F001A29E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC5742591C3C083F001A29E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC57425B1C3C083F001A29E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC57425E1C3C083F001A29E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC5742601C3C083F001A29E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC57424E1C3C083F001A29E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC5742481C3C083F001A29E7 = {
+			isa = PBXGroup;
+			children = (
+				AC5742531C3C083F001A29E7 /* AnacletoSingleViewApp */,
+				AC5742521C3C083F001A29E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC5742521C3C083F001A29E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC5742511C3C083F001A29E7 /* AnacletoSingleViewApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC5742531C3C083F001A29E7 /* AnacletoSingleViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC5742541C3C083F001A29E7 /* AppDelegate.swift */,
+				AC5742561C3C083F001A29E7 /* ViewController.swift */,
+				AC5742581C3C083F001A29E7 /* Main.storyboard */,
+				AC57425B1C3C083F001A29E7 /* Assets.xcassets */,
+				AC57425D1C3C083F001A29E7 /* LaunchScreen.storyboard */,
+				AC5742601C3C083F001A29E7 /* Info.plist */,
+			);
+			path = AnacletoSingleViewApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC5742501C3C083F001A29E7 /* AnacletoSingleViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5742631C3C083F001A29E7 /* Build configuration list for PBXNativeTarget "AnacletoSingleViewApp" */;
+			buildPhases = (
+				AC57424D1C3C083F001A29E7 /* Sources */,
+				AC57424E1C3C083F001A29E7 /* Frameworks */,
+				AC57424F1C3C083F001A29E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnacletoSingleViewApp;
+			productName = AnacletoSingleViewApp;
+			productReference = AC5742511C3C083F001A29E7 /* AnacletoSingleViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC5742491C3C083F001A29E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = anacleto;
+				TargetAttributes = {
+					AC5742501C3C083F001A29E7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AC57424C1C3C083F001A29E7 /* Build configuration list for PBXProject "AnacletoSingleViewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC5742481C3C083F001A29E7;
+			productRefGroup = AC5742521C3C083F001A29E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC5742501C3C083F001A29E7 /* AnacletoSingleViewApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC57424F1C3C083F001A29E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC57425F1C3C083F001A29E7 /* LaunchScreen.storyboard in Resources */,
+				AC57425C1C3C083F001A29E7 /* Assets.xcassets in Resources */,
+				AC57425A1C3C083F001A29E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC57424D1C3C083F001A29E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5742571C3C083F001A29E7 /* ViewController.swift in Sources */,
+				AC5742551C3C083F001A29E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC5742581C3C083F001A29E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5742591C3C083F001A29E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC57425D1C3C083F001A29E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC57425E1C3C083F001A29E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC5742611C3C083F001A29E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC5742621C3C083F001A29E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC5742641C3C083F001A29E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnacletoSingleViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anacleto.AnacletoSingleViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC5742651C3C083F001A29E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnacletoSingleViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anacleto.AnacletoSingleViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC57424C1C3C083F001A29E7 /* Build configuration list for PBXProject "AnacletoSingleViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5742611C3C083F001A29E7 /* Debug */,
+				AC5742621C3C083F001A29E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5742631C3C083F001A29E7 /* Build configuration list for PBXNativeTarget "AnacletoSingleViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5742641C3C083F001A29E7 /* Debug */,
+				AC5742651C3C083F001A29E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC5742491C3C083F001A29E7 /* Project object */;
+}
